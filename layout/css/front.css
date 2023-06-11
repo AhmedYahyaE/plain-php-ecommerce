@@ -1,0 +1,70 @@
+/*Start: Main Rulez*/
+body {background-color: #f4f4f4; font-size: 16px}
+.asterisk {font-size: 20px; color: #d20707; position: absolute; right: 10px; top: 7px}/*class asterisk was created using jQuery. The first positioned-parent is .form-control*/
+.main-form .asterisk {font-size: 30px; color: #d20707; position: absolute; right: 30px; top: 8px}
+.nice-message {padding: 10px; background-color: #fff; margin: 10px 0; border-left: 5px solid #080}
+h1 {font-size: 55px; margin: 40px 0; font-weight: bold; color: #666}
+.input-container {position: relative}
+.custom-hr {border-top: 1px solid #c9c9c9}
+/*End: Main Rulez*/
+
+/*Start: Bootstrap edits*/
+.navbar {border-radius: 0; margin-bottom: 0}
+.nav>li>a, .navbar-brand {padding: 15px 12px}
+.navbar-brand {font-size: 1em}/*from body font-size*/
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover, .dropdown-menu {background-color: #3498db}
+.dropdown-menu {min-width: 180px; padding: 0; font-size: 1em; border: none; border-radius: 0}
+.dropdown-menu>li>a {color: #fff; padding: 10px 15px}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {color: #fff; background-color: #8e44ad}
+.form-control {position: relative}/*to enable me to position the asterisk I made using jQuery in the Form Validation section*/
+/*End: Bootstrap edits*/
+
+/*Start: Header Page*/
+.upper-bar {padding: 10px; background-color: #fff}
+.my-image {width: 32px; height: 32px}
+/*End: Header Page*/
+
+/*Start: Login Page*/
+.login-page form, .the-errors {max-width: 380px; margin: auto}
+.login-page h1 {color: #c0c0c0}
+.login-page h1 span {cursor: pointer}
+.login-page form {margin: auto; max-width: 380px}
+.login-page form input {margin-bottom: 10px}
+.login-page [data-class='login'].selected  {color: #337ab7} /*THIS IS HOW TO SELECT A CUSTOM DATA ATTRIBUTE*/    /* Check front.js */
+.login-page [data-class='signup'].selected {color: #5cb85c} /*THIS IS HOW TO SELECT A CUSTOM DATA ATTRIBUTE*/    /* Check front.js */
+.login-page .signup {display: none}
+.the-errors .msg {padding: 10px; text-align: left; border-left: 5px solid #cd6858; background-color: #fff; margin-bottom: 8px; border-right: 1px solid #e0e0e0; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; color: #919191}
+.the-errors .error {border-left: 5px solid #cd6858}
+/*End: Login Page*/
+
+/*Start: Categories Page*/
+.item-box {position: relative}
+.item-box .price-tag {background-color: #b4b4b4; padding: 2px 10px; position: absolute; left: 0; top: 10px; font-weight: bold; color: #fff}
+.item-box .approve-status {position: absolute; top: 40px; left: 0; background-color: #b85a5a; color: #fff; padding: 3px 5px}
+.item-box .caption p {height: 44px; max-height: 44px}
+/*End: Categories Page*/
+
+/*Start: Profile Page*/
+.information {margin-top: 20px}
+.information ul {padding: 0; margin: 0}
+.information ul li {padding: 10px}
+.information ul li:nth-child(odd) {background-color: #eee}
+.information ul li span {display: inline-block; width: 128px}
+.thumbnail .date {text-align: right; font-size: 13px; color: #aaa; font-weight: bold}
+.information .btn {margin-top: 10px}
+/*End: Profile Page*/
+
+/*Start: Show Items Page*/
+.item-info h2 {padding: 10px; margin: 0}
+.item-info p {padding: 10px}
+.item-info ul li {padding: 10px}
+.item-info li:nth-child(odd) {background-color: #e8e8e8}
+.item-info ul li span {display: inline-block; width: 120px}
+.tags-items a {display: inline-block; background-color: #e2e2e2; padding: 2px 10px; border-radius: 5px; color: #666; margin-right: 5px}
+.add-comment h3 {margin: 0 0 10px}
+.add-comment textarea {display: block; margin-bottom: 10px; width: 500px; height: 120px}
+.comment-box {margin-bottom: 20px}
+.comment-box img {max-width: 100px; margin-bottom: 10px}
+.comment-box .lead {background-color: #e0e0e0; padding: 10px; margin-top: 25px; position: relative}
+.comment-box .lead::before {content: ""; width: 0; height: 0; border-width: 15px; border-style: solid; border-color: transparent #e0e0e0 transparent transparent; position: absolute; left: -28px; top: 10px}
+/*End: Show Items Page*/
