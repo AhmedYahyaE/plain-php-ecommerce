@@ -177,7 +177,7 @@ if (isset($_SESSION['user'])) { // if there's a user stored in the Session, allo
                                     <span class="price-tag">
                                         $<span class="live-price">0</span>
                                     </span><!--will be used by jQuery-->
-                                    <img class="img-responsive" src="img.png" alt="random image">
+                                    <img class="img-responsive" src="img.jpg" alt="random image">
                                     <div class="caption">
                                         <h3 class="live-title">Title</h3><!--will be used by jQuery-->
                                         <p class="live-desc">Description</p><!--will be used by jQuery-->

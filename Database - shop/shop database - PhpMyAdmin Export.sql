@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 09, 2023 at 02:08 AM
+-- Generation Time: Jun 11, 2023 at 06:49 PM
 -- Server version: 8.0.28
 -- PHP Version: 8.1.4
 
@@ -107,13 +107,13 @@ CREATE TABLE `items` (
 --
 
 INSERT INTO `items` (`Item_ID`, `Name`, `Description`, `Price`, `Add_Date`, `Country_Made`, `Image`, `Status`, `Rating`, `Approve`, `Cat_ID`, `Member_ID`, `tags`) VALUES
-(12, 'Network Cable', 'Cat 9 Network Cable', '$100', '2018-03-10', 'USA', '', '1', 0, 1, 18, 14, ''),
+(12, 'Network Cable', 'Cat 9 Network Cable', '100', '2018-03-10', 'USA', '', '1', 0, 1, 18, 14, ''),
 (14, 'Assassin\'s Creed', 'Open-world, action-adventure, and stealth game', '150', '2018-03-26', 'Turkey', '', '4', 0, 1, 27, 21, ''),
-(16, 'Wooden Game', 'A good wooden game', '100', '2018-03-29', 'Egypt', '', '1', 0, 0, 17, 21, 'Hand, Discount, Guarantee'),
-(17, 'Diablo |||', 'Good playstation 4 Game', '70', '2018-03-30', 'USA', '', '1', 0, 1, 18, 21, 'RPG, Online, Game'),
-(18, 'Ys: The Oath in Felghan', 'A good PS Game', '100', '2018-03-30', 'Japan', '', '1', 0, 0, 27, 21, 'Online, RPG, Gamed'),
+(16, 'Chess Wooden Game', 'A good wooden game', '100', '2018-03-29', 'Egypt', '', '1', 0, 0, 17, 21, 'Hand, Discount, Guarantee'),
+(17, 'Battlefield 2', 'Good playstation 4 Game', '70', '2018-03-30', 'USA', '', '1', 0, 1, 18, 21, 'RPG, Online, Game'),
+(18, 'Red Alert 3', 'A good PS Game', '100', '2018-03-30', 'Japan', '', '1', 0, 0, 27, 21, 'Online, RPG, Gamed'),
 (21, 'Lamborghini', 'Lambo cars', '3157145', '2023-04-14', 'Italy', NULL, '1', NULL, 1, 28, 21, 'cars'),
-(22, 'Men&#039;s Sneakers', 'High quality sneakers', '450', '2023-05-20', 'Egypt', NULL, '1', NULL, 0, 20, 29, ''),
+(22, 'Men\'s Sneakers', 'High quality sneakers', '450', '2023-05-20', 'Egypt', NULL, '1', NULL, 0, 20, 29, ''),
 (23, 'iPhone 14', 'Luxurious Apple iPhone 14', '41999', '2023-05-20', 'China', NULL, '1', NULL, 1, 18, 29, '');
 
 -- --------------------------------------------------------

@@ -54,7 +54,7 @@ if (isset($_SESSION['user'])) { // if there's a user stored in the Session, allo
                                                     echo '<span class="approve-status">Waiting approval</span>';
                                                 }
                                                 echo '<span class="price-tag">$' . $item['Price'] . '</span>';
-                                                echo '<img class="img-responsive" src="img.png" alt="random image">';
+                                                echo '<img class="img-responsive" src="img.jpg" alt="random image">';
                                                 echo '<div class="caption">';
                                                     echo '<h3><a href="items.php?itemid=' . $item['Item_ID'] . '">' . $item['Name'] . '</a></h3>';
                                                     echo '<p>' . $item['Description'] . '</p>';

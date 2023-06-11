@@ -22,7 +22,7 @@ include 'init.php';
                     echo '<div class="col-sm-6 col-md-3">';
                         echo '<div class="thumbnail item-box">';
                             echo '<span class="price-tag">' . $item['Price'] . '</span>';
-                            echo '<img class="img-responsive" src="img.png" alt="random image">';
+                            echo '<img class="img-responsive" src="img.jpg" alt="random image">';
                             echo '<div class="caption">';
                                 echo '<h3><a href="items.php?itemid=' . $item['Item_ID'] . '">' . $item['Name'] . '</a></h3>';
                                 echo '<p>' . $item['Description'] . '</p>';

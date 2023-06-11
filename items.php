@@ -32,7 +32,7 @@ if ($count > 0) {
     <h1 class="text-center"><?php echo $item['Name'] ?></h1>
     <div class="container">
         <div class="row">
-            <div class="col-md-3"><img class="img-responsive img-thumbnail center-block" src="img.png" alt="random image"></div>
+            <div class="col-md-3"><img class="img-responsive img-thumbnail center-block" src="img.jpg" alt="random image"></div>
             <div class="col-md-9 item-info">
                 <h2><?php echo $item['Name'] ?></h2>
                 <p><?php echo $item['Description'] ?></p>
@@ -131,7 +131,7 @@ if ($count > 0) {
                 <div class="comment-box">
                     <div class="row">
                         <div class="col-sm-2 text-center">
-                            <img class="img-responsive img-thumbnail img-circle center-block" src="img.png" alt="random image">
+                            <img class="img-responsive img-thumbnail img-circle center-block" src="img.jpg" alt="random image">
                             <?php echo $comment['My_user_name'] ?>
                         </div>
                         <div class="col-sm-10">
