@@ -1,5 +1,5 @@
 /* Start: Main Rulez */
-body {background-color: #f4f4f4; font-size: 16px}
+body {background-color: #5a5a5a; font-size: 16px}
 .asterisk {font-size: 30px; color: #d20707; position: absolute; right: 30px; top: 8px} /* class asterisk was created using jQuery. The first positioned-parent is .form-control */
 .nice-message {padding: 10px; background-color: #fff; margin: 10px 0; border-left: 5px solid #080}
 /* End: Main Rulez */
@@ -7,7 +7,7 @@ body {background-color: #f4f4f4; font-size: 16px}
 
 /* Start: Login Form */
 .login {width: 300px; margin: 100px auto}
-.login h4 {color: #888}
+.login h4 {color: #fff}
 .login input {margin-bottom: 10px}
 .login .form-control {background-color: #eaeaea}
 .login .btn {background-color: #008dde}
@@ -51,7 +51,7 @@ body {background-color: #f4f4f4; font-size: 16px}
 /* End: Dashboard Page */
 
 /* Start: Members Page */
-h1 {font-size: 55px; margin: 40px 0; font-weight: bold; color: #666}
+h1 {font-size: 55px; margin: 40px 0; font-weight: bold; color: #fff}
 .show-pass {position: absolute; top: 6px; right: -30px}
 .manage-members img {width: 50px; height: 50px}
 .main-table {box-shadow: 0 3px 10px #ccc; -webkit-box-shadow: 0 3px 10px #ccc; -moz-box-shadow: 0 3px 10px #ccc}

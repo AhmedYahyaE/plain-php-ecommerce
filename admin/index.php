@@ -5,7 +5,7 @@ session_start();
 
 
 $noNavbar = ''; // to prevent adding navbar.php to the page (Refer to init.php and adding navbar.php adding with the if condition)
-$pageTitle = 'Login'; // Check eCommerce\admin\includes\templates\header.php file    AND    eCommerce\admin\includes\functions\functions.php file
+$pageTitle = 'Admin Panel Login'; // Check eCommerce\admin\includes\templates\header.php file    AND    eCommerce\admin\includes\functions\functions.php file
 
 
 // If the current user is authenticated/logged-in, redirect them directly to the eCommerce\admin\dashboard.php page
@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') { // if the HTML Form is submitted wit
 ?>
         
         <form class="login" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST"><!--Form will submit data to itself and not to another page-->
-            <h4 class="text-center">Admin Login</h4>
+            <h4 class="text-center"><b>Admin Panel Login</b></h4>
             <input class="form-control" type="text"     name="user" placeholder="Username" autocomplete="off">
             <input class="form-control" type="password" name="pass" placeholder="Password" autocomplete="new-password">
             <input class="btn btn-block btn-primary" type="submit" value="Login">
