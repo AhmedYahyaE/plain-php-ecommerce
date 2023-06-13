@@ -13,4 +13,4 @@ A plain PHP/MySQL complete E-commerce application with an Admin Panel, Login Sys
 ## Screenshot:
 
 ***Admin Panel Login***
-![admin-panel-login](<project screenshots/admin-panel-login.jpg>)
+![admin-panel-login](https://github.com/AhmedYahyaE/plain-php-ecommerce/assets/118033266/fd26152d-fd25-4367-9334-7f10c048bea7)
