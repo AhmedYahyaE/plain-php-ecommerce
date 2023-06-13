@@ -19,6 +19,12 @@ Frontend technologies used: jQuery and Bootstrap.
 
 6- User Roles and Permissions.
 
+## Application URLs:
+1- Frontend: The public-facing website can be accessed at https://www.example.com. This is where customers can browse products, add items to their cart, and proceed with the checkout process.
+
+2- Admin Panel: The Admin Panel for managing the E-commerce website is available at https://www.example.com/admin. This is a secure area accessible only to authorized administrators. It provides functionalities for managing products, categories, orders, and user accounts.
+
 ## Installation:
-Note: Fronted URL is: /eCommerce/index.php
-Admin Panel URL is: /eCommerce/admin/index.php
+1- Import the database schema. Navigate to 'Database - shop/shop database - PhpMyAdmin Export.sql' SQL Dump file.
+2-
+3-
