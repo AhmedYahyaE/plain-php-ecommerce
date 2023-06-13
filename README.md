@@ -1,4 +1,4 @@
-# Plain PHP and MySQL complete E-commerce application
+# Plain PHP and MySQL complete E-commerce Application
 A plain PHP/MySQL complete E-commerce application with an Admin Panel, Login System, Registration, Validation and Authorization.
 
 ## Features:
