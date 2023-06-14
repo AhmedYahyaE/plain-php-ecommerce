@@ -27,6 +27,6 @@ Frontend technologies used: jQuery and Bootstrap.
 ## Installation:
 1- Create a database `shop` and import the database "shop.sql" SQL dump file. Navigate to "Database - shop/shop database - PhpMyAdmin Export.sql" SQL Dump file.
 
-2- Navigate to the database connection file in 'admin/connect.php' file and edit the file according to your MySQL credentials.
+2- Navigate to the database connection file in 'admin/connect.php' file and configure/edit the file according to your MySQL credentials.
 
 3-
