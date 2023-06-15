@@ -16,22 +16,27 @@ Frontend technologies used: jQuery and Bootstrap.
 
 4- CRUD Operations.
 
-5- Admin Panel for the website owners (interactive Dashboard, user registration approval, commemt approval, item and category approval, ...).
+5- Admin Panel for the website owner (interactive Dashboard, user registration approval, member commemt approval, item and category approval, ...).
 
 6- User Roles and Permissions.
+
+7- File Upload.
 
 ## Application URLs:
 1- Frontend: The public-facing website can be accessed at https://www.example.com. This is where customers can browse products, add items to their cart, and proceed with the checkout process.
 
 2- Admin Panel: The Admin Panel for managing the E-commerce website is available at https://www.example.com/admin. This is a secure area accessible only to authorized administrators. It provides functionalities for managing products, categories, orders, and user accounts.
 
-## Installation:
+## Installation & Configuration:
 1- Clone the project or download it.
 
-2- Create a database named **\`shop\`** and import the database from '**`shop.sql`**' SQL dump file. Navigate to '**`Database - shop`**/**`shop database - PhpMyAdmin Export.sql`**' SQL Dump file.
+2- Create a MySQL database named **\`shop\`** and import the database schema from [shop database - PhpMyAdmin Export.sql](<Database - shop/shop database - PhpMyAdmin Export.sql>) SQL Dump file. Navigate to '**`Database - shop`**/**`shop database - PhpMyAdmin Export.sql`**' SQL Dump file.
 
 3- Navigate to the database connection configuration file in '**`admin/connect.php`**' file and configure/edit the file according to your MySQL credentials.
 
 4- Start your PHP built-in Development Web Server inside the project root directory by running the command: **`php -S localhost:8000`**.
 
 5- In your browser, go to http://127.0.0.1:8000/index.php (Frontend) and http://127.0.0.1:8000/admin/index.php (Admin Panel).
+
+## Contribution:
+Contributions to my plain PHP/MySQL E-commerce application are most welcome! If you find any issues or have suggestions for improvements or want to add new other features, please open an issue or submit a pull request.
