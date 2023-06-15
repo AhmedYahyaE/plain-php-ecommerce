@@ -25,8 +25,8 @@ Frontend technologies used: jQuery and Bootstrap.
 2- Admin Panel: The Admin Panel for managing the E-commerce website is available at https://www.example.com/admin. This is a secure area accessible only to authorized administrators. It provides functionalities for managing products, categories, orders, and user accounts.
 
 ## Installation:
-1- Create a database `shop` and import the database "shop.sql" SQL dump file. Navigate to "Database - shop/shop database - PhpMyAdmin Export.sql" SQL Dump file.
+1- Create a database named **`shop`** and import the database from '**`shop.sql`**' SQL dump file. Navigate to '**`Database - shop`**/**`shop database - PhpMyAdmin Export.sql`**' SQL Dump file.
 
-2- Navigate to the database connection file in 'admin/connect.php' file and configure/edit the file according to your MySQL credentials.
+2- Navigate to the database connection configuration file in '**`admin/connect.php`**' file and configure/edit the file according to your MySQL credentials.
 
 3-
