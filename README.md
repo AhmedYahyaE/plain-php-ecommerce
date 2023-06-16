@@ -38,7 +38,7 @@ Frontend technologies used: jQuery and Bootstrap.
 
 5- In your browser, go to http://localhost:8000/index.php (**Frontend**) and http://localhost:8000/admin/index.php (**Admin Panel**).
 
-6- A ready-to-use registered user account credentials (for both Frontend and Admin Panel):
+6- A ready-to-use registered user account credentials (for both **Frontend** and **Admin Panel**):
 
 > **Username**: **Ahmed**, **Password**: **123456**
 
