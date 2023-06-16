@@ -36,7 +36,7 @@ Frontend technologies used: jQuery and Bootstrap.
 
 4- Start your PHP built-in Development Web Server inside the project root directory by running the command: **`php -S localhost:8000`**.
 
-5- In your browser, go to http://127.0.0.1:8000/index.php (**Frontend**) and http://127.0.0.1:8000/admin/index.php (**Admin Panel**).
+5- In your browser, go to http://localhost:8000/index.php (**Frontend**) and http://localhost:8000/admin/index.php (**Admin Panel**).
 
 6- A ready-to-use registered user account credentials (for both Frontend and Admin Panel):
 
