@@ -1,7 +1,7 @@
 # Plain PHP and MySQL complete E-commerce Application
 A plain PHP/MySQL complete E-commerce application with an Admin Panel, Login System, Registration, Validation and Authorization. It provides the functionality needed for running an online store, such as product listing, shopping cart, and order management and approvals through its Admin Panel. This project aims to demonstrate the implementation of an e-commerce system without relying on any external libraries or frameworks.
 
-Frontend technologies used: jQuery and Bootstrap.
+Frontend technologies used: jQuery and Bootstrap (Responsive Design/Mobile First Design).
 
 ## Screenshots:
 ***Admin Panel Login***
