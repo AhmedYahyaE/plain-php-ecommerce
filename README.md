@@ -34,7 +34,7 @@ Frontend technologies used: jQuery and Bootstrap.
 
 3- Navigate to the database connection configuration file in '**`admin/connect.php`**' file and configure/edit the file according to your MySQL credentials.
 
-4- Navigate to the project root directory by using the **`cd`** command and then start your PHP built-in Development Web Server by running the command: **`php -S localhost:8000`**.
+4- Navigate to the project root directory by using the **`cd`** terminal command and then start your PHP built-in Development Web Server by running the command: **`php -S localhost:8000`**.
 
 5- In your browser, go to http://localhost:8000/index.php (**Frontend**) and http://localhost:8000/admin/index.php (**Admin Panel**).
 
