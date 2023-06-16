@@ -23,9 +23,9 @@ Frontend technologies used: jQuery and Bootstrap.
 7- File Upload.
 
 ## Application URLs:
-1- Frontend: The public-facing website can be accessed at https://www.example.com. This is where customers can browse products, add items to their cart, and proceed with the checkout process.
+1- Frontend: The public-facing website can be accessed at https://www.domain-example.com/index.php. This is where customers/users/members can browse products/items, add items to their cart, and comment on existing products, ...
 
-2- Admin Panel: The Admin Panel for managing the E-commerce website is available at https://www.example.com/admin. This is a secure area accessible only to authorized administrators. It provides functionalities for managing products, categories, orders, and user accounts.
+2- Admin Panel: The Admin Panel for managing the E-commerce website is available at https://www.domain-example.com/admin/index.php. This is a secure area accessible only to authorized administrators. It provides functionalities for managing products/items, categories, orders, and user accounts and comments.
 
 ## Installation & Configuration:
 1- Clone the project or download it.
@@ -36,7 +36,11 @@ Frontend technologies used: jQuery and Bootstrap.
 
 4- Start your PHP built-in Development Web Server inside the project root directory by running the command: **`php -S localhost:8000`**.
 
-5- In your browser, go to http://127.0.0.1:8000/index.php (Frontend) and http://127.0.0.1:8000/admin/index.php (Admin Panel).
+5- In your browser, go to http://127.0.0.1:8000/index.php (**Frontend**) and http://127.0.0.1:8000/admin/index.php (**Admin Panel**).
+
+6- A ready-to-use registered user account credentials (for both Frontend and Admin Panel):
+
+> **Username**: **Ahmed**, **Password**: **123456**
 
 ## Contribution:
-Contributions to my plain PHP/MySQL E-commerce application are most welcome! If you find any issues or have suggestions for improvements or want to add new other features, please open an issue or submit a pull request.
+Contributions to my plain PHP/MySQL E-commerce application are most welcome! If you find any issues or have suggestions for improvements or want to add new features, please open an issue or submit a pull request.
